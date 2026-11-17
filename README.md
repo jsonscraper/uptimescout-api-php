@@ -5,7 +5,8 @@ Cached regional service availability observations, explicit freshness and histor
 ## Install
 
 ```sh
-composer require jsonscraper/uptimescout-api-php:^0.1
+composer config repositories.uptimescout vcs https://github.com/jsonscraper/uptimescout-api-php
+composer require jsonscraper/uptimescout-api-php:0.1.1
 ```
 
 Export `UPTIMESCOUT_LICENSE_KEY` and run the example in `examples/`.
