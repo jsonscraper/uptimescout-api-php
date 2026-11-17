@@ -1,6 +1,6 @@
 {
   "name": "jsonscraper/uptimescout-api-php",
-  "description": "UptimeScout cached availability API client",
+  "description": "UptimeScout availability API client",
   "type": "library",
   "license": "MIT",
   "require": {
