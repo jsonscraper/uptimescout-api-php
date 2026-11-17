@@ -6,7 +6,7 @@ Regional service availability observations, explicit freshness and history.
 
 ```sh
 composer config repositories.uptimescout vcs https://github.com/jsonscraper/uptimescout-api-php
-composer require jsonscraper/uptimescout-api-php:0.1.2
+composer require jsonscraper/uptimescout-api-php:0.1.3
 ```
 
 Export `UPTIMESCOUT_LICENSE_KEY` and run the example in `examples/`.
@@ -22,3 +22,5 @@ Request usage resets on license renewal or plan change, never on a calendar boun
 MIT licensed.
 
 Request rates (60-second windows): Free 60/min, Starter 300/min, Builder 600/min, Pro 1,800/min, Scale 3,600/min. Annual plans use the same rates. Inspect `limits_info.rate_limit` and `limits_info.rate_limit_window_seconds`; respect HTTP 429 and `Retry-After`. Prices and license-period request allowances are unchanged.
+
+Regional selection, localized service descriptions and versioned logo URLs are supported by all seven methods. See [the endpoint reference](docs/endpoints.md#regional-observations-and-localized-metadata).
