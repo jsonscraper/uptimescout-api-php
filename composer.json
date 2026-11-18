@@ -1,6 +1,6 @@
 {
   "name": "jsonscraper/uptimescout-api-php",
-  "description": "UptimeScout availability API client",
+  "description": "UptimeScout API client for regional service availability, observation history and localized service metadata",
   "type": "library",
   "license": "MIT",
   "require": {
@@ -12,5 +12,19 @@
     "psr-4": {
       "UptimeScout\\": "src/"
     }
+  },
+  "keywords": [
+    "uptimescout",
+    "uptime",
+    "availability",
+    "status-api",
+    "monitoring",
+    "sdk"
+  ],
+  "homepage": "https://uptimescout.com",
+  "support": {
+    "issues": "https://github.com/jsonscraper/uptimescout-api-php/issues",
+    "source": "https://github.com/jsonscraper/uptimescout-api-php",
+    "docs": "https://github.com/jsonscraper/uptimescout-api-php/blob/main/docs/guide.md"
   }
 }
